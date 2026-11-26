@@ -1,0 +1,6 @@
+[project]
+name = "paperread-sync"
+version = "0.1.0"
+description = "PaperRead 閱讀同步服務（highlight + progress），只用標準函式庫"
+requires-python = ">=3.11"
+dependencies = []
