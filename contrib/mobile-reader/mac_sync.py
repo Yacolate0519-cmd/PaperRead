@@ -33,7 +33,7 @@ sys.path.insert(0, str(HERE / "vendor"))
 from easyread.store import Workspace  # noqa: E402
 
 LIBRARY = Path.home() / "PaperRead" / "library"
-API = os.environ.get("PAPERREAD_SYNC_API", "http://127.0.0.1:8766")
+API = os.environ.get("PAPERREAD_SYNC_API", "http://127.0.0.1:8791")
 APP_PLIST = Path("/Applications/PaperRead.app/Contents/Info.plist")
 # vendor/easyread/store.py 與上游 v1.5.4 的 easyread/store.py 逐位元相同（2026-11-26 比對）；
 # 被改動就停止寫入，避免鎖或合併規則跟 App 不一致
